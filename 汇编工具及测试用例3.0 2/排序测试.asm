@@ -8,52 +8,52 @@ sort_init:
  addi $s0,$0,-1
  addi $s1,$0,0
  
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 0 -1
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 4 0
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 8 1
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 2
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 3
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 4
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 5
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 6
  addi $s0,$s0,1
  addi $s1,$s1,4
-  sw $s0,0($s1)
+  sw $s0,0($s1)  # 7
  addi $s0,$s0,1
  addi $s1,$s1,4
-  sw $s0,0($s1)
+  sw $s0,0($s1)  # 8
  addi $s0,$s0,1
  addi $s1,$s1,4
- sw $s0,0($s1)
+ sw $s0,0($s1)   # 9
  addi $s0,$s0,1
  addi $s1,$s1,4
-  sw $s0,0($s1)
+  sw $s0,0($s1)  # a
  addi $s0,$s0,1
  addi $s1,$s1,4
-  sw $s0,0($s1)
+  sw $s0,0($s1)  # b
  addi $s0,$s0,1
  addi $s1,$s1,4
-  sw $s0,0($s1)
+  sw $s0,0($s1)  # c
  addi $s0,$s0,1
  addi $s1,$s1,4
-  sw $s0,0($s1)
+  sw $s0,0($s1)  # d
  addi $s0,$s0,1
  addi $s1,$s1,4
-    sw $s0,0($s1)
+  sw $s0,0($s1)  # e
  addi $s0,$s0,1
  addi $s1,$s1,4
    
