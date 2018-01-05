@@ -11,7 +11,7 @@ addi $s2,$zero,2
 addi $s3,$zero,3
 
 Next1:
- add    $a0,$0,$s0       #display $s0
+ add    $a0,$0,$s0       #display $s0 1
  addi   $v0,$0,1         # system call for exit
  syscall                 # we are out of here.  DISP: disp $r0, 0  $s0可能会引起相关，注意
 

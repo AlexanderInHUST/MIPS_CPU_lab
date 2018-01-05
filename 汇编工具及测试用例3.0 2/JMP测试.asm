@@ -34,37 +34,37 @@ jmp_count: addi $s0,$zero, 0
        addi $s0,$s0, 2
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  3
        
        addi $s0,$s0, 3
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  6
        
        addi $s0,$s0, 4       
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  a
        
        addi $s0,$s0, 5              
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  f
 
        addi $s0,$s0, 6              
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  15
 
        addi $s0,$s0, 7              
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  1c
 
        addi $s0,$s0, 8              
        add    $a0,$0,$s0      
        addi   $v0,$0,34         # display hex
        addi   $v0,$0,34         # display hex       
-       syscall                 # we are out of here.  
+       syscall                 # we are out of here.  24
        
        jr $31
